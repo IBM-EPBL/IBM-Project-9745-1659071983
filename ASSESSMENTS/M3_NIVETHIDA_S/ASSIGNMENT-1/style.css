@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+}
+#background1{
+    background-color: rgb(239, 239, 239); 
+    height: 70rem; 
+    width: 70rem; 
+    margin-left: 15rem; 
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+} 
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-top: 30px;
+    padding-left: 6rem;
+}
+a{
+    color: gray;
+}
+#icon-grp{ 
+    text-align: right;
+    padding-right: 6rem;
+    margin-top: -1rem;
+    font-size: 19px;
+
+} 
+#icons{
+    padding-right: 15px;
+}
+#background2{
+    height: 13rem;
+    width: 58rem;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 6rem;
+    background: linear-gradient(to right, #f0bbbb 30%, #e90808 50%);
+}
+#background3{
+    height: 47rem;
+    width: 58rem;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 6rem;
+    background-color: white;
+    margin-top: -20px;
+}
+#profile{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 10rem; 
+    height: 10rem; 
+}
+#name{
+    text-align: left;
+    margin-left: 23.6rem;
+    margin-top: -9rem;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h5{
+    text-align: left;
+    margin-left: 23.6rem;
+    margin-top: -1rem;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+button{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn{
+    margin-left: 22rem;
+}
+#col1{
+    width: 50%;
+    
+}
+#col2{
+    text-align: left;
+    padding-left: 28rem;
+    margin-top: -100px;
+    
+}
+.about{
+    padding-top: 60px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px; 
+}
+h3{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(103, 103, 103);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+pre{
+    color: rgb(103, 103, 103);
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+h2{
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(103, 103, 103);
+}
+#file{
+    width: 20rem;
+    height: 32px;
+    margin-left: 50px;
+}
+p{
+    font-family: cursive;
+    padding-left: 50px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+input{
+    height: 50px;
+    margin-left: 50px;
+    width:350px;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: 1px grey solid;
+}

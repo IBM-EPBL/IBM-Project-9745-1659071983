@@ -1,0 +1,33 @@
+{% extends "base.html"%}
+{% block content %}
+   
+    <div style=" margin-top: 130px; background-color:grey;" class="container text-center">
+        <h1 style="color: #6BD0FF; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Sign-Up</h1>
+        <br>
+        <form style="color: #6BD0FF;font-size: 18px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="form-group" action="" method="POST">
+            <label style="color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">First Name</label><br>
+            <div class="input-group container col-md-4">
+                <input style="background-color: rgba(255,255,255,0.1); color:white; border: 2px solid white" class="form-control" name="firstname" type="text"><br>
+            </div>
+            <label style="color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Last Name</label><br>
+            <div class="input-group container col-md-4">
+                <input style="background-color: rgba(255,255,255,0.1); color:white; border: 2px solid white" class="form-control" name="lastname" type="text"><br>
+            </div>
+            <label style="color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Contact No</label><br>
+            <div class="input-group container col-md-4">
+                <input style="background-color: rgba(255,255,255,0.1); color:white; border: 2px solid white" class="form-control" name="contactno" type="text"><br>
+            </div>
+            <label style="color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Mail Id</label><br>
+            <div class="input-group container col-md-4">
+                <input style="background-color: rgba(255,255,255,0.1); color:white; border: 2px solid white" class="form-control" name="mailid" type="text"><br>
+            </div>
+            <label style="color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Password</label><br>
+            <div class="input-group container col-md-4">
+                <input style="background-color: rgba(255,255,255,0.1); color:white; border: 2px solid white" class="form-control" name="pswd" type="text"><br>
+            </div>
+            <br>
+            <input style="background-color:#6BD0FF; color:black" class="btn btn-lg" type="SUBMIT" placeholder="SUBMIT"><br>
+        </form>
+    </div>
+ 
+{% endblock %}   
