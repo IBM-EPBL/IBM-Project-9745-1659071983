@@ -1,0 +1,4 @@
+﻿flask
+flask_mail
+ibm_db
+datetime

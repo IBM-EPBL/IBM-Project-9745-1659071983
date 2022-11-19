@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.signUp-box{
+	height:150%;
+	width:100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("cover5.jpg");
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+}
+.submit a{
+	text-decoration: none;
+	color: black;
+	height:100%;
+	width:100%;
+}
+.form-box{
+	width:400px;
+	height:700px;
+	position:relative;
+	margin: 2.8% auto;
+	background:transparent;;
+	padding: 5px;
+	overflow:hidden;
+}
+.button-box{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow:0 0 20px 9px cadetblue;
+	border-radius:30px;
+}
+.toggle-btn{
+	padding:10px 20px;
+	cursor:pointer;
+	background:transparent;
+	color: black;
+	border:0;
+	outline:none;
+	position:relative;
+}
+#btn{
+	top:0;
+	left:0;
+	position:absolute;
+	width:220px;
+	height:100%;
+	background:linear-gradient(to right,rgb(127, 193, 255), aquamarine);
+	border-radius:30px;
+	transition:.5s;
+}
+.input-group{
+	top:140px;
+	position:absolute;
+	width:200px;
+	transition:.5s;
+}
+.input-field{
+	width:100%;
+	padding:10px 0;
+	margin:5px 0;
+	color:beige;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom:1px solid aquamarine;
+	outline:none;
+	background:transparent;
+}
+.drop-down select{
+    width:100%;
+	padding:10px 0;
+	margin:5px 0;
+	color:white;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom:1px solid aquamarine;
+	outline:none;
+	background:transparent; 
+}
+.drop-down option{
+	color: white;
+	background:transparent; 
+    display:block;
+    border-left:none;
+    background-color: rgb(11, 11, 58);
+
+}
+.submit-btn{
+	width:85%;
+	padding:10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	background:linear-gradient(to right,rgb(127, 193, 255),aquamarine);
+	border:0;
+	outline:none;
+	border-radius:30px;
+}	
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color:#777;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	bottom: 120px;
+	position:absolute;
+}
+#Sign-Up{
+	left:50px;
+
+}
