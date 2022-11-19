@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            Sign In 
+        </title>
+        
+        <link rel="stylesheet" href="signInStyle.css">
+    </head>
+    <body>
+        <div class="signIn-box">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="User()">&ensp;&ensp;<b>User</b></button>
+                    <button type="button" class="toggle-btn" onclick="Admin()">&emsp; &emsp; <b>Admin</b></button>
+               </div>
+               <div class="social-icons">
+                <a href="https://twitter.com/login"><img src="twitter.jpg"></a>
+                 <a href="http://www.linkedin.com"><img src="linkedIn.jpg"></a>
+                <a href="https://accounts.google.com"><img src="google.png"></a>
+            </div>
+            <form id="User" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <div class="submit">
+                <button type="submit" class="submit-btn">Sign In</button><br>
+                <button type="submit" class="submit-btn"><a href="home.html">Back</a></button>
+                <br><h5 style="color:#777">&ensp; &emsp; No account?<a href="signUp.html" style="color:azure">&ensp; Sign Up</a></h5>
+                </div>
+            </form>
+            <form id="Admin" class="input-group">
+                <input type="text" class="input-field" placeholder="Admin Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <div class="submit">
+                    <button type="submit" class="submit-btn">Sign In</button><br>
+                    <button type="submit" class="submit-btn"><a href="home.html">Back</a></button>
+                    <br><h5 style="color:#777">&ensp; &emsp; No account?<a href="signUp.html" style="color:azure">&ensp; Sign Up</a></h5>
+                    </div>
+            </form>
+            </div>
+            
+        </div>
+        <script>
+            var x=document.getElementById("User");
+            var y=document.getElementById("Admin");
+            var z=document.getElementById("btn");
+
+            function Admin(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function User(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0px";
+            }
+        </script>
+    </body>
+
+</html>
